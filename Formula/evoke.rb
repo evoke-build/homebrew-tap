@@ -2,28 +2,28 @@
 class Evoke < Formula
   desc "Turns a sentence into a call of a small program, chosen by a classifier"
   homepage "https://evoke.build"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/evoke-build/evoke/releases/download/v0.3.0/evoke-aarch64-apple-darwin.tar.gz"
-      sha256 "9608b25b9a6b3d98c4958dc1f6486a60531e6956f695680338fba905599b62b4"
+      url "https://github.com/evoke-build/evoke/releases/download/v0.4.0/evoke-aarch64-apple-darwin.tar.gz"
+      sha256 "f303f5c04c29affb747ef58d5480fc53bc06d916095dc3b8a11b2705558e17fb"
     end
     on_intel do
-      url "https://github.com/evoke-build/evoke/releases/download/v0.3.0/evoke-x86_64-apple-darwin.tar.gz"
-      sha256 "da2503e7860e280b9a1cd66c9071dcc086beeee8e880d911493a51aab903e074"
+      url "https://github.com/evoke-build/evoke/releases/download/v0.4.0/evoke-x86_64-apple-darwin.tar.gz"
+      sha256 "348ccf92604fb15ddac95d51c455a5b2107ad88f92433283070c17ac70994085"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/evoke-build/evoke/releases/download/v0.3.0/evoke-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6365ab08fbcc51bd8284a7906744e859622c1f3e3f4e8ece15c990eb6ed4e236"
+      url "https://github.com/evoke-build/evoke/releases/download/v0.4.0/evoke-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1e9e9d565cc99e658e8f588acdb0d1cfeded0dc31de5935895ca50e904c013aa"
     end
     on_intel do
-      url "https://github.com/evoke-build/evoke/releases/download/v0.3.0/evoke-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8cea0f05ce493276b1b4e803afcec68c488b20f12350b78f10a4f792a9d2ce42"
+      url "https://github.com/evoke-build/evoke/releases/download/v0.4.0/evoke-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "58d0f074b0b600ca68c13ef2bf85e002446996d7bb08c7ec868a520325a29a61"
     end
   end
 
